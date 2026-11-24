@@ -1,0 +1,23 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+This license applies to all documentation and data files in this repository:
+the "docs" directory, Validation.pdf, the data dictionary files
+(20250227_Datenelemente-Transfusionsregister.csv,
+20250227_permitted-values-Transfusionsregister.csv), the header template,
+the synthetic datasets (test_data_100patients.csv, test_data_150patients.csv),
+and the planted-error answer keys (seeded_errors_100.json,
+seeded_errors_150.json).
+
+You are free to share (copy and redistribute the material in any medium or
+format) and adapt (remix, transform, and build upon the material) for any
+purpose, even commercially, provided you give appropriate credit, provide a
+link to the license, and indicate if changes were made.
+
+Full license text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Attribution: The investigators of the Registry Study for the Research of Blood
+Donor and Recipient Long-Term Outcomes, Goethe University Frankfurt, Frankfurt
+am Main, Germany (2026).
+
+Note: All patient-level data in this repository are entirely synthetic
+(computer-generated test data). No real patient data are included.

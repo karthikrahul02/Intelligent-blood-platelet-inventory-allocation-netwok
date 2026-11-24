@@ -1,0 +1,520 @@
+[
+  {
+    "file": "data\\raw\\blood_banks\\blood-banks.csv",
+    "error": "'utf-8' codec can't decode byte 0x96 in position 159636: invalid start byte"
+  },
+  {
+    "file": "data\\raw\\blood_donor\\blood_donor_dataset.csv",
+    "rows_loaded_for_profile": 5000,
+    "columns": 12,
+    "column_names": [
+      "donor_id",
+      "name",
+      "email",
+      "password",
+      "contact_number",
+      "city",
+      "blood_group",
+      "availability",
+      "months_since_first_donation",
+      "number_of_donation",
+      "pints_donated",
+      "created_at"
+    ],
+    "missing_cells_in_preview": 0,
+    "date_like_columns": [],
+    "preview_note": "CSV/Excel inspection is capped at 5,000 rows for speed; row count here may not be total rows."
+  },
+  {
+    "file": "data\\raw\\blood_group_reference\\blood_type_distribution_by_country.csv",
+    "error": "'utf-8' codec can't decode byte 0xa0 in position 57: invalid start byte"
+  },
+  {
+    "file": "data\\raw\\blood_group_reference\\cleaned_blood_type_distribution_by_country.csv",
+    "rows_loaded_for_profile": 126,
+    "columns": 10,
+    "column_names": [
+      "Country/Dependency",
+      "Population",
+      "O+",
+      "A+",
+      "B+",
+      "AB+",
+      "O-",
+      "A-",
+      "B-",
+      "AB-"
+    ],
+    "missing_cells_in_preview": 5,
+    "date_like_columns": [],
+    "preview_note": "CSV/Excel inspection is capped at 5,000 rows for speed; row count here may not be total rows."
+  },
+  {
+    "file": "data\\raw\\blood_group_reference\\countries_with_missing_blood_group_values.csv",
+    "rows_loaded_for_profile": 2,
+    "columns": 10,
+    "column_names": [
+      "Country/Dependency",
+      "Population",
+      "O+",
+      "A+",
+      "B+",
+      "AB+",
+      "O-",
+      "A-",
+      "B-",
+      "AB-"
+    ],
+    "missing_cells_in_preview": 5,
+    "date_like_columns": [],
+    "preview_note": "CSV/Excel inspection is capped at 5,000 rows for speed; row count here may not be total rows."
+  },
+  {
+    "file": "data\\raw\\blood_group_reference\\ref_blood_type_distribution_by_country.csv",
+    "error": "'utf-8' codec can't decode byte 0xa0 in position 57: invalid start byte"
+  },
+  {
+    "file": "data\\raw\\inventory_dashboard\\Blood product inventory dashboard v1.xlsx",
+    "rows_loaded_for_profile": 23,
+    "columns": 6,
+    "column_names": [
+      "Unnamed: 0",
+      "Unnamed: 1",
+      "Unnamed: 2",
+      "Unnamed: 3",
+      "Unnamed: 4",
+      "Unnamed: 5"
+    ],
+    "missing_cells_in_preview": 132,
+    "date_like_columns": [],
+    "preview_note": "CSV/Excel inspection is capped at 5,000 rows for speed; row count here may not be total rows."
+  },
+  {
+    "file": "data\\raw\\KL_dataset\\KL_dataset.xlsx",
+    "rows_loaded_for_profile": 5000,
+    "columns": 13,
+    "column_names": [
+      "SampleNum",
+      "Timestamp",
+      "PatientNum",
+      "WardNum",
+      "ERY",
+      "HK",
+      "LEUKO",
+      "HB",
+      "PLT",
+      "MCV",
+      "MCHC",
+      "MCH",
+      "RDW"
+    ],
+    "missing_cells_in_preview": 0,
+    "date_like_columns": [
+      "Timestamp"
+    ],
+    "preview_note": "CSV/Excel inspection is capped at 5,000 rows for speed; row count here may not be total rows."
+  },
+  {
+    "file": "data\\raw\\mimic_demo\\demo_subject_id.csv",
+    "rows_loaded_for_profile": 100,
+    "columns": 1,
+    "column_names": [
+      "subject_id"
+    ],
+    "missing_cells_in_preview": 0,
+    "date_like_columns": [],
+    "preview_note": "CSV/Excel inspection is capped at 5,000 rows for speed; row count here may not be total rows."
+  },
+  {
+    "file": "data\\raw\\mimic_demo\\hosp\\admissions.csv\\admissions.csv",
+    "rows_loaded_for_profile": 275,
+    "columns": 16,
+    "column_names": [
+      "subject_id",
+      "hadm_id",
+      "admittime",
+      "dischtime",
+      "deathtime",
+      "admission_type",
+      "admit_provider_id",
+      "admission_location",
+      "discharge_location",
+      "insurance",
+      "language",
+      "marital_status",
+      "race",
+      "edregtime",
+      "edouttime",
+      "hospital_expire_flag"
+    ],
+    "missing_cells_in_preview": 500,
+    "date_like_columns": [
+      "admittime",
+      "dischtime",
+      "deathtime",
+      "edregtime",
+      "edouttime"
+    ],
+    "preview_note": "CSV/Excel inspection is capped at 5,000 rows for speed; row count here may not be total rows."
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\1_01_duplicate_followups_identical.csv",
+    "rows_loaded_for_profile": 2,
+    "columns": 1,
+    "column_names": [
+      "X_435_0_751;X_435_0_741;X_435_0_742;days_from_first"
+    ],
+    "missing_cells_in_preview": 0,
+    "date_like_columns": [],
+    "preview_note": "CSV/Excel inspection is capped at 5,000 rows for speed; row count here may not be total rows."
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\1_02_duplicate_followups_conflicting.csv",
+    "rows_loaded_for_profile": 2,
+    "columns": 1,
+    "column_names": [
+      "X_435_0_751;X_435_0_741;X_435_0_742;days_from_first"
+    ],
+    "missing_cells_in_preview": 0,
+    "date_like_columns": [],
+    "preview_note": "CSV/Excel inspection is capped at 5,000 rows for speed; row count here may not be total rows."
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\1_03_indication_counting.csv",
+    "error": "Error tokenizing data. C error: Expected 1 fields in line 6, saw 6\n"
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\1_04_los_same_record.csv",
+    "error": "Error tokenizing data. C error: Expected 1 fields in line 6, saw 6\n"
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\1_05_los_median.csv",
+    "error": "Error tokenizing data. C error: Expected 1 fields in line 6, saw 6\n"
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\1_06_declined_answers.csv",
+    "rows_loaded_for_profile": 4,
+    "columns": 1,
+    "column_names": [
+      "has_followup_3month;X_435_0_741_3month;X_435_0_742_3month"
+    ],
+    "missing_cells_in_preview": 0,
+    "date_like_columns": [],
+    "preview_note": "CSV/Excel inspection is capped at 5,000 rows for speed; row count here may not be total rows."
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\1_07_outcome_labels.csv",
+    "rows_loaded_for_profile": 5,
+    "columns": 1,
+    "column_names": [
+      "has_followup_3month;X_435_0_740_3month;X_435_0_752_3month"
+    ],
+    "missing_cells_in_preview": 0,
+    "date_like_columns": [],
+    "preview_note": "CSV/Excel inspection is capped at 5,000 rows for speed; row count here may not be total rows."
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\1_08_snomed_denominator.csv",
+    "error": "Error tokenizing data. C error: Expected 1 fields in line 6, saw 6\n"
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\1_09_temporal_patients.csv",
+    "rows_loaded_for_profile": 3,
+    "columns": 1,
+    "column_names": [
+      "PID;X_433_7_746;year_month"
+    ],
+    "missing_cells_in_preview": 0,
+    "date_like_columns": [],
+    "preview_note": "CSV/Excel inspection is capped at 5,000 rows for speed; row count here may not be total rows."
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\1_10_code_normalization.csv",
+    "rows_loaded_for_profile": 5,
+    "columns": 1,
+    "column_names": [
+      "raw_code;expected_normalized"
+    ],
+    "missing_cells_in_preview": 0,
+    "date_like_columns": [],
+    "preview_note": "CSV/Excel inspection is capped at 5,000 rows for speed; row count here may not be total rows."
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\1_11_patient_level_denominator.csv",
+    "rows_loaded_for_profile": 5,
+    "columns": 1,
+    "column_names": [
+      "PID;Height;X_433_7_11"
+    ],
+    "missing_cells_in_preview": 0,
+    "date_like_columns": [],
+    "preview_note": "CSV/Excel inspection is capped at 5,000 rows for speed; row count here may not be total rows."
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\1_12_duplicates_by_window.csv",
+    "rows_loaded_for_profile": 6,
+    "columns": 1,
+    "column_names": [
+      "PID;window"
+    ],
+    "missing_cells_in_preview": 0,
+    "date_like_columns": [],
+    "preview_note": "CSV/Excel inspection is capped at 5,000 rows for speed; row count here may not be total rows."
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\1_13_biometrics.csv",
+    "error": "Error tokenizing data. C error: Expected 1 fields in line 6, saw 6\n"
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\1_14_dq1_completeness.csv",
+    "error": "Error tokenizing data. C error: Expected 1 fields in line 6, saw 6\n"
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\1_15_snomed_empty.csv",
+    "error": "Error tokenizing data. C error: Expected 1 fields in line 6, saw 6\n"
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\1_16_mixed_date_formats.csv",
+    "error": "Error tokenizing data. C error: Expected 1 fields in line 6, saw 6\n"
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\1_17_followup_time_anchor.csv",
+    "error": "Error tokenizing data. C error: Expected 1 fields in line 6, saw 6\n"
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\1_18_test_site_cohort.csv",
+    "error": "Error tokenizing data. C error: Expected 1 fields in line 6, saw 6\n"
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\1_19_code_forms_all_tables.csv",
+    "error": "Error tokenizing data. C error: Expected 1 fields in line 6, saw 6\n"
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\1_20_intervention_conflicts.csv",
+    "error": "Error tokenizing data. C error: Expected 1 fields in line 6, saw 6\n"
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\1_21_ordinal_outcomes.csv",
+    "rows_loaded_for_profile": 5,
+    "columns": 1,
+    "column_names": [
+      "has_followup_3month;X_433_0_32;X_435_0_741_3month;X_433_0_25;X_435_0_742_3month"
+    ],
+    "missing_cells_in_preview": 0,
+    "date_like_columns": [],
+    "preview_note": "CSV/Excel inspection is capped at 5,000 rows for speed; row count here may not be total rows."
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\1_22_interval_366_days.csv",
+    "error": "Error tokenizing data. C error: Expected 1 fields in line 6, saw 6\n"
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\1_23_attribute_conflicts.csv",
+    "error": "Error tokenizing data. C error: Expected 1 fields in line 6, saw 6\n"
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\1_24_dq4_all_rows.csv",
+    "error": "Error tokenizing data. C error: Expected 1 fields in line 6, saw 6\n"
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\20250227_Datenelemente-Transfusionsregister.csv",
+    "error": "Error tokenizing data. C error: Expected 1 fields in line 7, saw 2\n"
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\20250227_permitted-values-Transfusionsregister.csv",
+    "error": "Error tokenizing data. C error: Expected 5 fields in line 55, saw 11\n"
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\2_01_abo_expected_classifications.csv",
+    "rows_loaded_for_profile": 16,
+    "columns": 1,
+    "column_names": [
+      "patient_abo;product_abo;expected_RBC;expected_plasma;expected_PC"
+    ],
+    "missing_cells_in_preview": 0,
+    "date_like_columns": [],
+    "preview_note": "CSV/Excel inspection is capped at 5,000 rows for speed; row count here may not be total rows."
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\2_02_blood_type_statistics.csv",
+    "error": "Error tokenizing data. C error: Expected 1 fields in line 6, saw 6\n"
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\2_03_dosage_gender_units.csv",
+    "error": "Error tokenizing data. C error: Expected 1 fields in line 6, saw 6\n"
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\2_04_lab_value_quality.csv",
+    "error": "Error tokenizing data. C error: Expected 1 fields in line 6, saw 6\n"
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\2_05_lab_scale_contract.csv",
+    "error": "Error tokenizing data. C error: Expected 1 fields in line 6, saw 6\n"
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\2_06_review_export_integrity.csv",
+    "error": "Error tokenizing data. C error: Expected 1 fields in line 6, saw 6\n"
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\2_07_single_observation_product.csv",
+    "error": "Error tokenizing data. C error: Expected 1 fields in line 6, saw 6\n"
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\2_08_range_boundaries.csv",
+    "error": "Error tokenizing data. C error: Expected 1 fields in line 6, saw 6\n"
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\2_09_qc_artifacts_and_ebv.csv",
+    "error": "Error tokenizing data. C error: Expected 1 fields in line 6, saw 6\n"
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\2_10_products_6_8_10.csv",
+    "error": "Error tokenizing data. C error: Expected 1 fields in line 6, saw 6\n"
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\4_01_enrollment_cutoff_mini.csv",
+    "error": "Error tokenizing data. C error: Expected 1 fields in line 6, saw 6\n"
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\4_03a_january_reference.csv",
+    "error": "Error tokenizing data. C error: Expected 1 fields in line 6, saw 6\n"
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\4_03b_august_current.csv",
+    "error": "Error tokenizing data. C error: Expected 1 fields in line 6, saw 6\n"
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\4_05a_duplicate_labels_reference.csv",
+    "rows_loaded_for_profile": 8,
+    "columns": 1,
+    "column_names": [
+      "meta line 1"
+    ],
+    "missing_cells_in_preview": 0,
+    "date_like_columns": [],
+    "preview_note": "CSV/Excel inspection is capped at 5,000 rows for speed; row count here may not be total rows."
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\4_05b_duplicate_labels_current.csv",
+    "rows_loaded_for_profile": 8,
+    "columns": 1,
+    "column_names": [
+      "meta line 1"
+    ],
+    "missing_cells_in_preview": 0,
+    "date_like_columns": [],
+    "preview_note": "CSV/Excel inspection is capped at 5,000 rows for speed; row count here may not be total rows."
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\4_06a_consume_reference.csv",
+    "error": "Error tokenizing data. C error: Expected 1 fields in line 6, saw 6\n"
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\4_06b_consume_current.csv",
+    "error": "Error tokenizing data. C error: Expected 1 fields in line 6, saw 6\n"
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\4_07a_vanished_reference.csv",
+    "error": "Error tokenizing data. C error: Expected 1 fields in line 6, saw 6\n"
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\4_07b_vanished_current.csv",
+    "error": "Error tokenizing data. C error: Expected 1 fields in line 6, saw 6\n"
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\4_08_missing_patient_reference.csv",
+    "error": "Error tokenizing data. C error: Expected 1 fields in line 6, saw 6\n"
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\4_11a_withdrawn_reference.csv",
+    "error": "Error tokenizing data. C error: Expected 1 fields in line 6, saw 6\n"
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\4_11b_withdrawn_current.csv",
+    "error": "Error tokenizing data. C error: Expected 1 fields in line 6, saw 6\n"
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\4_12a_schema_evolution_reference.csv",
+    "rows_loaded_for_profile": 8,
+    "columns": 1,
+    "column_names": [
+      "meta line 1"
+    ],
+    "missing_cells_in_preview": 0,
+    "date_like_columns": [],
+    "preview_note": "CSV/Excel inspection is capped at 5,000 rows for speed; row count here may not be total rows."
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\4_12b_schema_evolution_current.csv",
+    "rows_loaded_for_profile": 8,
+    "columns": 1,
+    "column_names": [
+      "meta line 1"
+    ],
+    "missing_cells_in_preview": 0,
+    "date_like_columns": [],
+    "preview_note": "CSV/Excel inspection is capped at 5,000 rows for speed; row count here may not be total rows."
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\4_13_schema_violation_current.csv",
+    "rows_loaded_for_profile": 8,
+    "columns": 1,
+    "column_names": [
+      "meta line 1"
+    ],
+    "missing_cells_in_preview": 0,
+    "date_like_columns": [],
+    "preview_note": "CSV/Excel inspection is capped at 5,000 rows for speed; row count here may not be total rows."
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\header_template.csv",
+    "error": "Error tokenizing data. C error: Expected 1 fields in line 6, saw 6\n"
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\physician_value_ranges.csv",
+    "rows_loaded_for_profile": 25,
+    "columns": 1,
+    "column_names": [
+      "# Authoritative permissible value ranges - versioned specification"
+    ],
+    "missing_cells_in_preview": 21,
+    "date_like_columns": [],
+    "preview_note": "CSV/Excel inspection is capped at 5,000 rows for speed; row count here may not be total rows."
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\seeded_errors_100.json",
+    "rows_loaded_for_profile": 22,
+    "columns": 4,
+    "column_names": [
+      "n_patients",
+      "output_file",
+      "counts",
+      "errors"
+    ],
+    "missing_cells_in_preview": 0,
+    "date_like_columns": [],
+    "preview_note": "CSV/Excel inspection is capped at 5,000 rows for speed; row count here may not be total rows."
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\seeded_errors_150.json",
+    "rows_loaded_for_profile": 22,
+    "columns": 4,
+    "column_names": [
+      "n_patients",
+      "output_file",
+      "counts",
+      "errors"
+    ],
+    "missing_cells_in_preview": 0,
+    "date_like_columns": [],
+    "preview_note": "CSV/Excel inspection is capped at 5,000 rows for speed; row count here may not be total rows."
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\test_data_100patients.csv",
+    "error": "Error tokenizing data. C error: Expected 1 fields in line 6, saw 6\n"
+  },
+  {
+    "file": "data\\raw\\transfusion_registry\\test_data_150patients.csv",
+    "error": "Error tokenizing data. C error: Expected 1 fields in line 6, saw 6\n"
+  }
+]

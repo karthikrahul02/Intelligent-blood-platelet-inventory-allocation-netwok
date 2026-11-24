@@ -1,0 +1,182 @@
+{
+  "n_patients": 150,
+  "output_file": "test_data_150patients.csv",
+  "counts": {
+    "test_location": 5,
+    "ppsb_wrong_unit": 4,
+    "fib_wrong_unit": 3,
+    "fib_too_low": 3,
+    "missing_dosage": 2,
+    "plt_wrong_unit": 5,
+    "alb_wrong_unit": 5,
+    "hb_extreme": 4,
+    "quick_extreme": 3,
+    "fib_lab_extreme": 3,
+    "alb_lab_extreme": 3,
+    "plt_lab_extreme": 3,
+    "negative_values": 3,
+    "followup_too_early": 3,
+    "followup_between": 2,
+    "duplicate_identical": 3,
+    "duplicate_conflicting": 5,
+    "followup_refusal_zero": 3,
+    "blood_type_incompatible": 3,
+    "blood_type_compatible_nonidentical": 2,
+    "negative_los": 3,
+    "missing_values": 38
+  },
+  "errors": {
+    "test_location": [
+      1006,
+      1028,
+      1057,
+      1062,
+      1070
+    ],
+    "ppsb_wrong_unit": [
+      1022,
+      1026,
+      1035,
+      1139
+    ],
+    "fib_wrong_unit": [
+      1007,
+      1008,
+      1108
+    ],
+    "fib_too_low": [
+      1023,
+      1055,
+      1059
+    ],
+    "missing_dosage": [
+      1129,
+      1148
+    ],
+    "plt_wrong_unit": [
+      1050,
+      1056,
+      1071,
+      1107,
+      1114
+    ],
+    "alb_wrong_unit": [
+      1001,
+      1020,
+      1089,
+      1097,
+      1103
+    ],
+    "hb_extreme": [
+      1019,
+      1043,
+      1054,
+      1144
+    ],
+    "quick_extreme": [
+      1027,
+      1121,
+      1126
+    ],
+    "fib_lab_extreme": [
+      1011,
+      1013,
+      1048
+    ],
+    "alb_lab_extreme": [
+      1012,
+      1045,
+      1140
+    ],
+    "plt_lab_extreme": [
+      1033,
+      1044,
+      1077
+    ],
+    "negative_values": [
+      1005,
+      1093,
+      1125
+    ],
+    "followup_too_early": [
+      1015,
+      1058,
+      1068
+    ],
+    "followup_between": [
+      1010,
+      1113
+    ],
+    "duplicate_identical": [
+      1037,
+      1080,
+      1147
+    ],
+    "duplicate_conflicting": [
+      1024,
+      1046,
+      1073,
+      1079,
+      1090
+    ],
+    "followup_refusal_zero": [
+      1084,
+      1105,
+      1142
+    ],
+    "blood_type_incompatible": [
+      1029,
+      1099,
+      1117
+    ],
+    "blood_type_compatible_nonidentical": [
+      1087,
+      1112
+    ],
+    "negative_los": [
+      1100,
+      1106,
+      1120
+    ],
+    "missing_values": [
+      1001,
+      1011,
+      1022,
+      1029,
+      1033,
+      1035,
+      1037,
+      1039,
+      1041,
+      1047,
+      1048,
+      1050,
+      1058,
+      1059,
+      1063,
+      1065,
+      1067,
+      1068,
+      1073,
+      1077,
+      1078,
+      1081,
+      1091,
+      1092,
+      1096,
+      1098,
+      1101,
+      1109,
+      1111,
+      1113,
+      1117,
+      1119,
+      1123,
+      1127,
+      1133,
+      1138,
+      1146,
+      1148
+    ]
+  }
+}

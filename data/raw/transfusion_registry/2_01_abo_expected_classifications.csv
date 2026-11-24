@@ -1,0 +1,17 @@
+patient_abo;product_abo;expected_RBC;expected_plasma;expected_PC
+0;0;identical;identical;identical
+0;A;incompatible;compatible;non_identical
+0;B;incompatible;compatible;non_identical
+0;AB;incompatible;compatible;non_identical
+A;0;compatible;incompatible;non_identical
+A;A;identical;identical;identical
+A;B;incompatible;incompatible;non_identical
+A;AB;incompatible;compatible;non_identical
+B;0;compatible;incompatible;non_identical
+B;A;incompatible;incompatible;non_identical
+B;B;identical;identical;identical
+B;AB;incompatible;compatible;non_identical
+AB;0;compatible;incompatible;non_identical
+AB;A;compatible;incompatible;non_identical
+AB;B;compatible;incompatible;non_identical
+AB;AB;identical;identical;identical

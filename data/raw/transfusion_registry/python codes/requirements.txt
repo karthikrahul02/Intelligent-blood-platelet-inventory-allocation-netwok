@@ -1,0 +1,18 @@
+# German Transfusion Registry Analysis Suite
+# Python Environment Requirements
+#
+# Created: 2026-01-26
+# Tested with Python 3.12.0
+#
+# To recreate the environment:
+#   python3 -m venv venv
+#   source venv/bin/activate  # On macOS/Linux
+#   pip install -r requirements.txt
+
+# Required packages (used by analysis scripts)
+# pandas is pinned below 3.0: the pipeline was validated on the pandas 2.3
+# series, and pandas 3 changes CSV parsing behavior (duplicate column
+# labels are preserved instead of renamed).
+pandas>=2.3.0,<3.0
+numpy>=2.0.0
+matplotlib>=3.10.0

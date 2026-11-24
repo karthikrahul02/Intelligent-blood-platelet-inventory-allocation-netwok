@@ -1,0 +1,13 @@
+{
+  "data_source": "synthetic",
+  "forecast_horizon_days": 1,
+  "test_start": "2026-05-26",
+  "test_end": "2026-06-29",
+  "training_rows": 11040,
+  "test_rows": 2800,
+  "random_forest_mae": 1.5413881512072583,
+  "random_forest_rmse": 2.0712203029858767,
+  "random_forest_wape_percent": 41.950688407662554,
+  "seven_day_baseline_mae": 1.5650510204081631,
+  "interpretation": "These metrics evaluate performance only on the generated synthetic distribution; they do not establish real-world hospital forecasting accuracy."
+}

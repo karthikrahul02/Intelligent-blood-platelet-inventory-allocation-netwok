@@ -1,0 +1,51 @@
+{
+    "project": "HemoNet",
+    "model_name": "Enhanced CatBoost Regressor",
+    "model_file": "catboost_platelet_demand.cbm",
+    "target": "daily_demand",
+    "categorical_features": [
+        "hospital_id",
+        "blood_group"
+    ],
+    "numeric_features": [
+        "lag_1",
+        "lag_7",
+        "lag_14",
+        "rolling_mean_7",
+        "rolling_mean_14",
+        "rolling_std_7",
+        "rolling_max_7",
+        "rolling_min_7",
+        "demand_change_7"
+    ],
+    "all_features": [
+        "hospital_id",
+        "blood_group",
+        "lag_1",
+        "lag_7",
+        "lag_14",
+        "rolling_mean_7",
+        "rolling_mean_14",
+        "rolling_std_7",
+        "rolling_max_7",
+        "rolling_min_7",
+        "demand_change_7"
+    ],
+    "validation_metrics": {
+        "mae": 1.4966892663452724,
+        "rmse": 2.033679358467936,
+        "wape_percent": 40.88165097870196
+    },
+    "data_source": "synthetic",
+    "emergency_adjustment": {
+        "uplift": 0.25,
+        "status": "experimental",
+        "requires_known_emergency_status": true
+    },
+    "created_at_utc": "2026-10-21T17:11:01.010460+00:00",
+    "limitations": [
+        "Evaluated on synthetic data.",
+        "Real-world forecasting performance is unverified.",
+        "Emergency adjustment requires further validation."
+    ]
+}

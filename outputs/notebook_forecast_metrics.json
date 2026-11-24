@@ -1,0 +1,14 @@
+{
+  "data_source": "synthetic",
+  "forecast_horizon_days": 1,
+  "test_start": "2026-05-27",
+  "test_end": "2026-06-29",
+  "training_rows": 10560,
+  "test_rows": 2720,
+  "baseline_mae": 1.560451680672269,
+  "baseline_rmse": 2.1301672575218142,
+  "random_forest_mae": 1.5558897816236053,
+  "random_forest_rmse": 2.095613207413706,
+  "random_forest_wape_percent": 42.49869658582252,
+  "mae_improvement_over_baseline": 0.004561899048663776
+}

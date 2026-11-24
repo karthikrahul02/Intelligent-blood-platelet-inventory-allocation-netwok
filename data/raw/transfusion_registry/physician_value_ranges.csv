@@ -1,0 +1,26 @@
+# Authoritative permissible value ranges - versioned specification
+# Version 2026-08-21, approved by the study lead. This file IS the binding
+"# range specification of the analysis pipeline; it consolidates the study's"
+# physician range documentation into canonical analysis units.
+# Bounds are inclusive. For LABORATORY parameters (nonpositive_impossible=yes),
+# a floor of 0 is the entry floor of the field, not a plausible measured value:
+# documented values <= 0 are excluded as impossible on every analysis and
+# quality path and reported separately from missing values (decision 2026-08-21).
+# Serum albumin is specified in canonical g/dl (see its note).
+# The test battery compares CLINICAL_RANGE_REGISTRY against this file value by value.
+parameter;designation;min;max;unit;nonpositive_impossible;note
+height_cm;Height;20;220;cm;no;
+weight_kg;Weight;1;250;kg;no;registry currently records weight as integer kilograms; should decimal entries become possible in the future, the loader keeps them unchanged and reports them as QC findings
+hemoglobin;Hb before/after product administration;1.0;20.0;g/dl;yes;
+serum_albumin;Serum albumin before/after product administration;0;7.0;g/dl;yes;"binding unit g/dl; supersedes mg/dl labels in older working documents and in the registry data dictionary (dictionary correction initiated); entries >= 100 are legacy wrong-scale (mg/dl) values, converted once and counted in the audit"
+ferritin;Ferritin before/after product administration;5;5000;µg/L;yes;
+transferrin;Transferrin saturation before/after product administration;5;100;%;yes;
+fibrinogen;Fibrinogen before/after product administration;0;1000;mg/dl;yes;
+quicks_test;Quick's test before/after product administration;0;500;%;yes;
+platelets;Platelets before/after product administration;1000;1000000;/µl;yes;
+epo_plasma;Erythropoietin (Plasma) before/after product administration;0;200;U/L;yes;
+atiii_activity;Antithrombin activity before/after product administration;30;150;%;yes;
+mat_wound_blood;Volume of wound blood;0;10000;ml;no;
+mat_wound_hematocrit;Hematocrit percentage of wound blood;15;65;%;no;
+recovered_rbc_volume;Recovered RBC volume;0;3000;ml;no;
+recovered_hematocrit;Recovered hematocrit percentage;15;90;%;no;
